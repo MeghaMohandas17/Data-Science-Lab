@@ -9,5 +9,5 @@ for i in range(a):
    		a.append(int(input()))
 	matrix.append(a)
 print(matrix)
-result=np.linalg.inv(matrix)
+result=np.transpose(matrix)
 print(result)
